@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f1f5;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    margin-right: 50px;
+
+}
+
+.title:hover {
+    text-decoration: underline;
+}
+
+.game {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.choiceBtn {
+    width: 110px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    background-color: #f095e0;
+    color: #333;
+    cursor: pointer;
+}
+
+.choiceBtn:hover {
+    background-color: #ec76d6;
+}
+
+
+.result {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.resultText {
+    font-size: 18px;
+    color: #333;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.scoreText {
+    font-size: 16px;
+    color: #333;
+}
+
+.resetBtn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e595f0;
+    color: #333;
+    cursor: pointer;
+}
+
+.resetBtn:hover {
+    background-color: #e774f7;
+}
